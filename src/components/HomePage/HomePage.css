@@ -1,0 +1,69 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 150vh; /* Ensures full viewport height */
+}
+
+
+
+/* Main content should take up space */
+.body_text {
+  flex: 1;
+}
+body{
+     background-image:url(../../Assets/bg.webp) ; 
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center; /* Centers the image */
+    background-attachment: relative;
+    height: auto;
+    width: 100%;
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Add a container around the text */
+.home-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    z-index: 0;
+     /* Full viewport height to cover entire screen */
+  }
+  
+  /* Style the text */
+  .body_text {
+    position: absolute;
+    color: #003893;
+    font-family: Arial, Helvetica, sans-serif; 
+    z-index: 0;
+    
+  }
+  .body_text h1{
+    max-width: 80%;
+    /* padding: 150px ; */
+    padding-left: 30px;
+    padding-top: 150px;
+  }
+  .body_text p{
+    max-width: 20%;
+    padding-left: 30px;
+    line-height: 1.5;
+    
+  }
+  /*
+@media (max-width: 768px) {
+    body {
+        background-size: cover; Ensures the image is contained within the viewport 
+        background-position: center top;  Adjusts position for smaller screens 
+    }
+    .body-text {
+        font-size: 18px; /* Smaller text on smaller screens 
+        padding: 0 10px; /* Add padding to the sides 
+      } */

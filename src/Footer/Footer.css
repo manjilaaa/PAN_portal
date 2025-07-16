@@ -1,0 +1,102 @@
+/* Footer styles */
+.footer {
+  color: #003893;
+  text-align: center;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  margin-top: auto;
+  background-color: whitesmoke; /* deep blue or any dark color */
+  /* color: white; */
+  padding: 2px;
+  
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.footer-description {
+  flex: 1 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.footer-description p {
+  font-size: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.link-section {
+  text-align: left;
+}
+
+.team-section {
+  text-align: left;
+  flex: 1 100%;
+}
+.team-section h3{
+  color: #003893;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+  
+}
+
+.team-member {
+  width: 25%;
+  text-align: center;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 6px 0;
+  
+}
+
+h3, h4 {
+  margin-bottom: 1px;
+}
+
+a {
+  color:  #003893;
+  text-decoration: none;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.favicon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin: 0;
+
+ 
+}
+.social-icon {
+ display: flex;
+ align-items: center;
+ gap: 0px;
+ margin: 0;
+ padding: 0;
+ margin-right: -9px;
+   /* Adds space between icons */ 
+}
+.social-icon a{
+  margin-right: 0;
+ 
+}
